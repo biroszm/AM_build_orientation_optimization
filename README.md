@@ -36,9 +36,9 @@ The optimization therefore evaluates how the stress field changes when the part 
 
 ## Repository workflow
 
-The overall workflow is illustrated below.
+The overall workflow is illustrated below in **`preview_3.png`**.
 
-![Workflow of the proposed method](assets/preview_3.png)
+![preview_3.png — Workflow of the proposed method](assets/preview_3.png)
 
 The pipeline consists of the following major steps:
 
@@ -55,11 +55,11 @@ The objective functions shown in the schematic correspond to minimizing detrimen
 
 ## Figures and interpretation
 
-### 1. Mechanical motivation and example stress fields
+### 1. `preview_1.png` — Mechanical motivation and example stress fields
 
-![Mechanical concept, loading cases, CAD examples, and principal stress visualization](assets/preview_1.png)
+![preview_1.png — Mechanical concept, loading cases, CAD examples, and principal stress visualization](assets/preview_1.png)
 
-This composite figure summarizes the mechanical background of the method:
+The image **`preview_1.png`** summarizes the mechanical background of the method:
 
 - **Top-left:** comparison of maximum stresses for tensile and compressive loading, with the load applied either **parallel** or **perpendicular** to the printed layers.
 - **Top-right:** schematic interpretation of favorable and unfavorable loading relative to the layer arrangement.
@@ -68,11 +68,11 @@ This composite figure summarizes the mechanical background of the method:
 
 These plots illustrate why orientation matters: the same geometry may respond very differently depending on whether the load path is aligned with or against the anisotropic layer structure.
 
-### 2. Orientation decomposition concept
+### 2. `preview_2.png` — Orientation decomposition concept
 
-![Workflow, Euler rotation, and stress decomposition concept](assets/preview_2.png)
+![preview_2.png — Workflow, Euler rotation, and stress decomposition concept](assets/preview_2.png)
 
-This figure shows the conceptual basis of the optimization:
+The image **`preview_2.png`** shows the conceptual basis of the optimization:
 
 - **Left:** the computational workflow from FEA import to orientation decision.
 - **Middle:** Euler rotation used to transform the stress directions into the candidate build frame.
