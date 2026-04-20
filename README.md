@@ -38,7 +38,7 @@ The optimization therefore evaluates how the stress field changes when the part 
 
 The overall workflow is illustrated below.
 
-![Workflow of the proposed method](assets/figure_workflow_clean.png)
+![Workflow of the proposed method](assets/preview_3.png)
 
 The pipeline consists of the following major steps:
 
@@ -57,7 +57,7 @@ The objective functions shown in the schematic correspond to minimizing detrimen
 
 ### 1. Mechanical motivation and example stress fields
 
-![Mechanical concept, loading cases, CAD examples, and principal stress visualization](assets/figure_overview.png)
+![Mechanical concept, loading cases, CAD examples, and principal stress visualization](assets/preview_1.png)
 
 This composite figure summarizes the mechanical background of the method:
 
@@ -70,7 +70,7 @@ These plots illustrate why orientation matters: the same geometry may respond ve
 
 ### 2. Orientation decomposition concept
 
-![Workflow, Euler rotation, and stress decomposition concept](assets/figure_workflow.png)
+![Workflow, Euler rotation, and stress decomposition concept](assets/preview_2.png)
 
 This figure shows the conceptual basis of the optimization:
 
@@ -126,9 +126,9 @@ A practical repository layout could look like this:
 .
 ├── README.md
 ├── assets/
-│   ├── figure_overview.png
-│   ├── figure_workflow.png
-│   └── figure_workflow_clean.png
+│   ├── preview_1.png
+│   ├── preview_2.png
+│   └── preview_3.png
 ├── data/
 │   └── example_fea_exports/
 ├── src/
