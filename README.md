@@ -31,7 +31,7 @@ For conventionally manufactured isotropic parts, orientation during production i
 
 The first figure, **`preview_1.png`**, summarizes this motivation.
 
-![preview_1.png](assets/preview_1.png)
+![preview_1.png](preview_1.png)
 
 In **`preview_1.png`**:
 
@@ -57,7 +57,7 @@ This distinction is important because the layer-normal direction often governs w
 
 The conceptual decomposition is illustrated in **`preview_2.png`**.
 
-![preview_2.png](assets/preview_2.png)
+![preview_2.png](preview_2.png)
 
 In **`preview_2.png`**:
 
@@ -99,7 +99,7 @@ The logic of this pipeline is visible again in **`preview_2.png`**, where the se
 
 The third figure, **`preview_3.png`**, presents the optimization outcome and example preferred orientations.
 
-![preview_3.png](assets/preview_3.png)
+![preview_3.png](preview_3.png)
 
 In **`preview_3.png`**:
 
@@ -166,32 +166,6 @@ By embedding principal stress direction analysis into orientation planning, this
 
 ---
 
-## Repository structure
-
-A recommended repository layout is the following:
-
-```text
-.
-├── README.md
-├── assets/
-│   ├── preview_1.png
-│   ├── preview_2.png
-│   └── preview_3.png
-├── data/
-│   └── example_fea_exports/
-├── src/
-│   ├── io/
-│   ├── preprocessing/
-│   ├── rotations/
-│   ├── objectives/
-│   ├── optimization/
-│   └── visualization/
-├── notebooks/
-└── results/
-```
-
----
-
 ## Citation
 
 If you use this repository or build upon the methodology in academic work, please cite the underlying publication.
@@ -208,8 +182,4 @@ If you use this repository or build upon the methodology in academic work, pleas
 }
 ```
 
----
 
-## Reference
-
-The methodology described in this repository is based on the article metadata provided in the uploaded source file.
